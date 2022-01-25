@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Data Sorting</title>
+    <link rel="stylesheet" href="style.css">
+    </link>
+</head>
+
+<body>
+    <section>
+        <div class="head">
+            <strong>Comparision: <b id="comp"></b>
+            </strong>
+        </div>
+        <div class="head">
+            <strong>Swap: <b id="swap"></b>
+            </strong>
+        </div>
+    </section>
+    <section class="data-container"></section>
+    <section> 
+      <button class="btn1" onclick="generateArr()" id="generate-arr">Generate Array</button>
+        <button class="btn4" onclick="reset()" id="btn4">Reset</button> 
+    </section>
+    <ul class="sort">
+        <li>
+          <button class="btn2" onclick="selectionsort(),dis()" id="selection-sort">Selection Sort</button>
+        </li>
+        <li>
+          <button class="btn3" onclick="bubblesort(),dis()" id="bubble-sort">Bubble Sort</button>
+        </li>
+        <li>
+          <button class="btn5" onclick="insertionsort(),dis()" id="insertion-sort">Insertion Sort</button>
+        </li>
+    </ul>
+    <!-- js here -->
+    <script src="main.js"></script>
+</body>
+
+</html>
